@@ -1,0 +1,6 @@
+interface:
+  display_name: "Start a project"
+  short_description: "Organize useful work with a clear resume point"
+  default_prompt: "Use $start-project to organize this work and establish its next step."
+policy:
+  allow_implicit_invocation: true

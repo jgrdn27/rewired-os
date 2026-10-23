@@ -1,0 +1,6 @@
+interface:
+  display_name: "System check"
+  short_description: "Check evidence paths and working behavior"
+  default_prompt: "Use $system-check for this request."
+policy:
+  allow_implicit_invocation: true

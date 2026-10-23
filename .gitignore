@@ -1,0 +1,16 @@
+.state/
+__pycache__/
+*.pyc
+.env*
+raw/*
+!raw/README.md
+wiki/*
+!wiki/index.md
+context/*
+!context/index.md
+work/*
+!work/index.md
+reviews/
+dist/
+library/custom/
+.rewired/
