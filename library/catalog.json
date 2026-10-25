@@ -1,0 +1,130 @@
+{
+  "schema": 2,
+  "library": "gtm",
+  "version": "0.2.1-preview",
+  "review_owner": "Rewired OS editorial",
+  "review_interval_days": 30,
+  "automatic_updates": false,
+  "tools": [
+    {
+      "id": "lemlist",
+      "name": "lemlist",
+      "use": "Outreach preparation and analysis",
+      "routes": [
+        "cli",
+        "remote-mcp"
+      ],
+      "reviewed_skill_commit": "f3a97eae61b12b77d09a72d605087f76f8e19ba3",
+      "license_review": "MIT declared in README/package; standalone notice not found; link only",
+      "official_sources": [
+        "https://developer.lemlist.com/cli/overview",
+        "https://help.lemlist.com/en/articles/13728466-set-up-the-lemlist-mcp-server-in-your-llm-client-oauth-or-api-key",
+        "https://github.com/l3mpire/claude-skills"
+      ],
+      "profile": "library/tools/lemlist.md",
+      "last_reviewed": "2026-10-05",
+      "verification": "documentation-reviewed",
+      "live_tested": false,
+      "vendor_content_bundled": false,
+      "commercial_relationship": "not_configured",
+      "review_basis": "official-documentation-and-repository"
+    },
+    {
+      "id": "fullenrich",
+      "name": "FullEnrich",
+      "use": "Selected contact enrichment and search",
+      "routes": [
+        "remote-mcp",
+        "http-api"
+      ],
+      "reviewed_skill_commit": "5c727120c6ca6ef89d3b17dbd6916b1bee73fdcb",
+      "license_review": "MIT notice verified; vendor material not bundled",
+      "official_sources": [
+        "https://help.fullenrich.com/en/articles/14190120-mcp-server",
+        "https://docs.fullenrich.com/api/v2/general/introduction",
+        "https://github.com/FullEnrich/fullenrich-skills"
+      ],
+      "profile": "library/tools/fullenrich.md",
+      "last_reviewed": "2026-10-05",
+      "verification": "documentation-reviewed",
+      "live_tested": false,
+      "vendor_content_bundled": false,
+      "commercial_relationship": "not_configured",
+      "review_basis": "official-documentation-and-repository"
+    },
+    {
+      "id": "clay",
+      "name": "Clay",
+      "use": "GTM research and enrichment orchestration",
+      "routes": [
+        "cli",
+        "host-plugin",
+        "http-api"
+      ],
+      "reviewed_skill_commit": "802a1ab5ee6e76e039c75c98e2fde0429a968472",
+      "license_review": "No license file found in reviewed source; link only",
+      "official_sources": [
+        "https://university.clay.com/docs/clay-api-cli",
+        "https://github.com/clay-run/agent-plugins"
+      ],
+      "profile": "library/tools/clay.md",
+      "last_reviewed": "2026-10-05",
+      "verification": "documentation-reviewed",
+      "live_tested": false,
+      "vendor_content_bundled": false,
+      "commercial_relationship": "not_configured",
+      "review_basis": "official-documentation-and-repository"
+    },
+    {
+      "id": "claap",
+      "name": "Claap",
+      "use": "Meeting recording and reusable meeting knowledge",
+      "routes": [
+        "remote-mcp",
+        "http-api",
+        "manual-export"
+      ],
+      "review_basis": "official-documentation",
+      "reviewed_skill_commit": null,
+      "license_review": "Original guidance with official links; no vendor code or skills bundled",
+      "official_sources": [
+        "https://help.claap.io/en/articles/11786373-use-claap-mcp-server-for-advanced-workflows",
+        "https://help.claap.io/en/articles/11833785-claap-api-overview",
+        "https://help.claap.io/en/articles/10149930-how-to-set-your-meeting-preferences",
+        "https://help.claap.io/en/articles/16600260-what-you-can-do-with-a-claap-meeting"
+      ],
+      "profile": "library/tools/claap.md",
+      "last_reviewed": "2026-10-05",
+      "verification": "documentation-reviewed",
+      "live_tested": false,
+      "vendor_content_bundled": false,
+      "commercial_relationship": "not_configured"
+    }
+  ],
+  "use_cases": [
+    {
+      "id": "meeting-recording",
+      "name": "Meeting recording and knowledge",
+      "default_tool": "claap",
+      "playbook": "library/playbooks/meeting-to-knowledge.md"
+    },
+    {
+      "id": "account-research",
+      "name": "Account targeting and research",
+      "default_tool": "clay",
+      "playbook": "library/playbooks/choose-a-target.md"
+    },
+    {
+      "id": "contact-enrichment",
+      "name": "Contact enrichment",
+      "default_tool": "fullenrich",
+      "playbook": "library/playbooks/enrich-a-sample.md"
+    },
+    {
+      "id": "outreach",
+      "name": "Outreach preparation and learning",
+      "default_tool": "lemlist",
+      "playbook": "library/playbooks/prepare-and-learn.md"
+    }
+  ]
+}

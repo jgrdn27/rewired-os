@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "mode": "on-demand",
+  "weekly_review": "offer-during-setup",
+  "timezone": null,
+  "scheduled_jobs": [],
+  "libraries": {
+    "gtm": {
+      "enabled": false,
+      "tool_overrides": {}
+    }
+  }
+}

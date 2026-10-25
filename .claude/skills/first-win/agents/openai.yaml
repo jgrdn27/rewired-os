@@ -1,0 +1,6 @@
+interface:
+  display_name: "Get started"
+  short_description: "Personalize your OS around life and work"
+  default_prompt: "Use $first-win to guide me through personalizing Rewired OS, one question at a time."
+policy:
+  allow_implicit_invocation: true
