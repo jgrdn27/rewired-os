@@ -2,6 +2,8 @@
 
 Rewired OS separates what lasts from what executes. The files contain knowledge, methods, preferences, sources, and resume points. The host supplies a model, file access, tool execution, credentials, and optional scheduling. Replacing a model should not require rebuilding the first layer. It can still change reasoning quality and tool behavior.
 
+The recommended setup is one personal OS folder in the user's preferred shared storage. Extract the release ZIP there once; connect subsequent assistants to that same folder. A new assistant-specific project may point to the folder, but should not create a separate copy of the OS. Verify access to the actual saved files: a shared provider name or a GitHub URL alone does not establish continuity.
+
 ## The four layers
 
 | Layer | Contents | What changes independently |

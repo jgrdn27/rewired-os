@@ -1,5 +1,5 @@
 {
-  "version": "0.6.0-beta.2",
+  "version": "0.6.0-beta.3",
   "files": [
     ".agents/skills/bring-in/SKILL.md",
     ".agents/skills/bring-in/agents/openai.yaml",

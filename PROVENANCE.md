@@ -4,6 +4,8 @@ Rewired OS is developed for and directed by Jérémy Grandillon, with AI-assiste
 
 ## This edition
 
+The 0.6.0-beta.3 edition makes a single shared personal folder the recommended setup path. Its onboarding guidance and packaging documentation are original Rewired work.
+
 The 0.6.0-beta.2 candidate adds independently authored playbook execution and method-capture workflows, templates, a sponsor example, and a resumption trial. These extend Rewired's existing project records and evidence rules. No third-party playbook implementation, source text, or runtime is bundled in this addition.
 
 The 0.6.0-beta.1 candidate replaced the workspace operating manual and its nine canonical workflows using the [Rewired product contract](docs/product-contract.md). Runtime and visible workflow copies are generated from canonical files. Existing route identifiers and data formats are retained for compatibility.

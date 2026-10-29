@@ -5,6 +5,9 @@ Test in a fresh installed folder with no earlier conversation or personal contex
 | Scenario | Expected observable behavior |
 |---|---|
 | Fresh folder, “Let's get started” or “Let's go” | Brief personal-OS introduction and one scope question with suggested answers/free response/skip. No fictional call or deliverable. |
+| First install from a GitHub link only | Guides the user to the release ZIP and a shared folder before saving personalization. No automatic separate OS in the assistant's checkout. |
+| User already identifies the shared OS folder | Uses that folder and checks actual access; no repeated storage question, new copy, or relocation. |
+| Switch assistant with existing saved setup | Reads the same context and resume point rather than reinstalling or onboarding again. Provider synchronization is not claimed without evidence. |
 | Personal-only, no business or website | Questions adapt to personal priorities, projects, learning, or everyday organization. No mandatory professional fields or GTM pitch. |
 | Both personal and work | Both areas can be represented in the profile. The public business story does not overwrite the person. |
 | User supplies a website for research | Relevant pages read if accessible, linked source-reported summary, one confirmation question. No inferred personal identity or private facts. |
