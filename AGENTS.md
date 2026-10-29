@@ -16,6 +16,8 @@ For an established workspace, recover the relevant facts and work record, then a
 | Evidence and reusable knowledge | [Wiki](wiki/index.md), then [knowledge handling](docs/knowledge.md) when importing |
 | A new substantial project | [Project guide](docs/projects.md) and [start-project](workflows/start-project.md) |
 | Previous deliverables and unfinished work | [Work](work/index.md) and [pick-up](workflows/pick-up.md) |
+| Carry out a repeatable process or continue a campaign run | [Run a playbook](workflows/run-playbook.md) |
+| Save a useful process to reuse | [Save a playbook](workflows/save-playbook.md) |
 | A decision to explore | [think-it-through](workflows/think-it-through.md) |
 | Review of work or recurring friction | [work-review](workflows/work-review.md) |
 | A failure, integrity question, or health check | [system-check](workflows/system-check.md) |

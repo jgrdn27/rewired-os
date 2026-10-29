@@ -14,6 +14,7 @@ Link only the relevant context, wiki pages, originals, and working method. Expla
 - Last observed: date and source of the observation.
 - Current state: what is actually supported by evidence.
 - Latest deliverable: link, purpose, and draft/review/execution state.
+- Playbook runs, if relevant: links to their canonical records; keep checkpoint progress there.
 - Owner or deadline: only if known and relevant.
 
 ## Continue here

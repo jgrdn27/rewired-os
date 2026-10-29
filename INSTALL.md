@@ -2,7 +2,7 @@
 
 **Change your AI. Keep your system.** Start with a folder you control and guided personalization around your life and work.
 
-Source repository: [jgrdn27/rewired-os](https://github.com/jgrdn27/rewired-os). This checkout describes the **unpublished 0.6.0-beta.1 candidate**. No public release URL is asserted for it. Use the exact candidate ZIP and checksum supplied by the maintainer, or build a reviewed checkout using [distribution maintenance](docs/distribution.md). An earlier public beta is not a substitute for this edition. See [candidate scope](docs/beta-status.md).
+Source repository: [jgrdn27/rewired-os](https://github.com/jgrdn27/rewired-os). This checkout describes the **unpublished 0.6.0-beta.2 candidate**. No public release URL is asserted for it. Use the exact candidate ZIP and checksum supplied by the maintainer, or build a reviewed checkout using [distribution maintenance](docs/distribution.md). An earlier public beta is not a substitute for this edition. See [candidate scope](docs/beta-status.md).
 
 ## Give this to your assistant
 
@@ -38,7 +38,7 @@ Keep the original ZIP and its checksum outside the working OS. No repository, ac
 Read the instructions and obtain the helper from the trusted package first. Run it from the extracted stock folder, with the ZIP kept separately. Replace the sample names and use quoted absolute paths for paths containing spaces:
 
 ```sh
-python3 scripts/distribution.py install --package "/path/to/rewired-os-0.6.0-beta.1.zip" --destination "/path/to/My Rewired OS" --sha256 "EXPECTED_SHA256"
+python3 scripts/distribution.py install --package "/path/to/rewired-os-0.6.0-beta.2.zip" --destination "/path/to/My Rewired OS" --sha256 "EXPECTED_SHA256"
 ```
 
 The destination's parent must exist; the destination must not exist, even as an empty folder. The helper validates the inventory and hashes, rejects unsafe archive paths and symlinks, stages the files, and installs the complete folder. A failed validation creates no destination. Do not pass the literal placeholder checksum; use the supplied 64-character digest.

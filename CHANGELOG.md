@@ -1,5 +1,14 @@
 # Rewired OS change notes
 
+## 0.6.0-beta.2 · 2026-10-29 · unpublished playbook candidate
+
+- Adds an original file-based playbook workflow, reusable method and run templates, and a fictional sponsor campaign example.
+- Adds a save-playbook workflow for capturing useful processes in user-owned files without installing skills or starting another run.
+- Extends project setup and resumption to follow checkpoint evidence, selected criteria, and authorization for the actual artifact version.
+- Adds a reproducible fictional handoff fixture and a cross-assistant behavioral test protocol.
+- Preserves existing user-state and installation formats. No background jobs or external actions are enabled.
+- See the candidate evidence record for observed validation and limits; this is not a published release.
+
 ## 0.6.0-beta.1 · 2026-10-24 · unpublished replacement candidate
 
 - Reimplements the root operating instructions and all nine workflows from the Rewired product contract.

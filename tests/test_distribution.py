@@ -102,6 +102,28 @@ class DistributionTests(unittest.TestCase):
             d.apply(self.root, incoming, contents, sha)
         self.assertEqual(before, self.snapshot())
 
+    def test_personal_playbooks_and_run_evidence_survive_update_and_restore(self):
+        personal = {
+            'work/methods/review-copy.md': b'My accepted correction process\n',
+            'work/campaign/runs/october/RUN.md': b'Revised copy awaits review\n',
+            'work/campaign/runs/october/draft-v1.md': b'Previously approved version\n',
+        }
+        for name, data in personal.items():
+            target = self.root / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+            # Even an incoming stock path with the same name cannot replace user work.
+            self.content[name] = b'New stock example that must not replace personal work\n'
+        result = d.apply(self.root, *self.second())
+        for name, data in personal.items():
+            self.assertEqual((self.root / name).read_bytes(), data)
+        run = 'work/campaign/runs/october/RUN.md'
+        personal[run] = b'Revised copy now approved; publication still unauthorized\n'
+        (self.root / run).write_bytes(personal[run])
+        d.restore(self.root, result['backup'])
+        for name, data in personal.items():
+            self.assertEqual((self.root / name).read_bytes(), data)
+
     def test_deleted_managed_file_is_conflict_when_upstream_changes(self):
         (self.root / 'README.md').unlink()
         incoming, _, _ = self.second()

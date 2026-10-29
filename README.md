@@ -4,11 +4,11 @@
 
 A portable personal OS for your life, learning, projects, and work: context, sourced knowledge, working methods, and things to continue. Use it with the assistant and file provider that fit you. Your accumulated work stays in files you control when you change the model that helps you use it.
 
-Built as a general personal OS, with GTM operators and founders as its initial audience; the optional GTM Library adds practical methods and setup guides for selected tools. This checkout is the unpublished 0.6.0-beta.1 replacement candidate. Revised instructions require their own behavioral validation; broader host, provider, and vendor-account pilots remain pending. See [beta scope and evidence](docs/beta-status.md).
+Built as a general personal OS, with GTM operators and founders as its initial audience; the optional GTM Library adds practical methods and setup guides for selected tools. This checkout is the unpublished 0.6.0-beta.2 replacement candidate. Revised instructions require their own behavioral validation; broader host, provider, and vendor-account pilots remain pending. See [beta scope and evidence](docs/beta-status.md).
 
 ## Start here
 
-This candidate has no public download URL yet. Use the maintainer-supplied `rewired-os-0.6.0-beta.1.zip` and checksum, or build a reviewed checkout using [distribution maintenance](docs/distribution.md). The older public beta does not contain these replacements. See [installation](INSTALL.md).
+This candidate has no public download URL yet. Use the maintainer-supplied `rewired-os-0.6.0-beta.2.zip` and checksum, or build a reviewed checkout using [distribution maintenance](docs/distribution.md). The older public beta does not contain these replacements. See [installation](INSTALL.md).
 
 Give your assistant the candidate folder and ask it to follow START-HERE.md.
 
@@ -26,6 +26,8 @@ An assistant needs actual file access. Uploaded files are snapshots; they do not
 - Bring this research or handoff into my OS.
 - Start a project for this campaign and help me take the first step.
 - Where did I leave off on this project?
+- Run this playbook for the next campaign and save where we stop.
+- Save this as my way of doing it next time.
 - Help me think through this decision.
 - Review my week and suggest one worthwhile improvement.
 - Check my knowledge intake and flag sources that need review.
@@ -35,6 +37,10 @@ An assistant needs actual file access. Uploaded files are snapshots; they do not
 The visible [workflow index](workflows/index.md) works without a skill installer. Local skill packages are also included. The assistant loads only the method and evidence needed for the task.
 
 For work spanning sessions, [project setup](docs/projects.md) begins with one brief: outcome, selected evidence, deliverable links, dated state, and the next unfinished action. Existing project folders and tools remain authoritative. Add stages only when repeated work needs them.
+
+[Playbook runs](docs/playbooks.md) keep each execution's selected checkpoints, completion evidence, waiting conditions, and next action. The method stays reusable; each occasion keeps its own artifacts and review history. They work through ordinary files without a background service. A fictional sponsor campaign and [resumption checks](docs/playbook-testing.md) support testing with different assistants.
+
+After useful work, ask to [save the process](workflows/save-playbook.md). The assistant extracts what is repeatable, preserves meaningful constraints, labels untested steps, and saves your method in user-owned work files. Saving a method does not start another run or install a native skill.
 
 ## How it grows
 

@@ -1,6 +1,6 @@
 # Release readiness
 
-This package is an unpublished 0.6.0-beta.1 candidate. The owner confirmed MIT for original contributions on 2026-10-24. Earlier acceptance does not apply automatically to replacement workflows. See [beta scope and observed evidence](beta-status.md). Remaining scenarios below guide further testing; they are not claims of completed validation. Broader runtime/provider support remains provisional.
+This package is an unpublished 0.6.0-beta.2 candidate. The owner confirmed MIT for original contributions on 2026-10-24. Earlier acceptance does not apply automatically to replacement workflows. See [beta scope and observed evidence](beta-status.md). Remaining scenarios below guide further testing; they are not claims of completed validation. Broader runtime/provider support remains provisional.
 
 The release manifest is an explicit allowlist of stock files. Never package a user's workspace recursively. Git ignore patterns do not remove private content from already tracked or modified templates. Build a release from the untouched development template, then inspect content and Git history separately before publication.
 
@@ -25,6 +25,7 @@ Automated tests verify deterministic file behavior. They do not establish semant
 - Test offline retrieval with files downloaded; verify the user sees the limits of cloud models and APIs.
 - Simulate conflicting device changes. Preserve both originals and reconcile with one writer; never rely on the local helper lock across devices.
 - Switch assistant/model and resume from saved work without relying on prior chat memory.
+- Run the [playbook resumption pilot](playbook-testing.md), including changed approval versions, interrupted saves, and a status-only read. Record actual host results and remaining limits.
 - With GTM disabled, confirm no unrelated vendor guidance loads. Activate/deactivate without software installation or credential changes.
 - Pilot each tool setup in a selected host/account; record identity and a read-only result. Check missing prerequisites, expired auth, changed schemas, cost limits, and interrupted-job recovery.
 - Confirm tool setup does not send messages, run paid batches, or broaden host approval rules outside the request.
