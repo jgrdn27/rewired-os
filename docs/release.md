@@ -1,6 +1,6 @@
 # Release readiness
 
-This package is an unpublished 0.6.0-beta.2 candidate. The owner confirmed MIT for original contributions on 2026-10-24. Earlier acceptance does not apply automatically to replacement workflows. See [beta scope and observed evidence](beta-status.md). Remaining scenarios below guide further testing; they are not claims of completed validation. Broader runtime/provider support remains provisional.
+This package is the 0.6.0-beta.3 beta. See [tested capabilities and limits](beta-status.md) for observed evidence. The scenarios below guide validation; a listed scenario is not a claim that it has passed. Broader runtime/provider support remains provisional.
 
 The release manifest is an explicit allowlist of stock files. Never package a user's workspace recursively. Git ignore patterns do not remove private content from already tracked or modified templates. Build a release from the untouched development template, then inspect content and Git history separately before publication.
 

@@ -1,6 +1,6 @@
-# Candidate scope and evidence · 2026-10-29
+# Tested capabilities and limits · 2026-10-29
 
-This source tree is the **0.6.0-beta.2 candidate**, not a claim of a published release. It adds playbook execution and method capture to the existing nine workflows, following [the product contract](product-contract.md). Previous onboarding acceptance does not establish acceptance of every revised instruction.
+Rewired OS 0.6.0-beta.3 uses a shared personal folder for continuity between assistants. The tables below distinguish observed checks from capabilities that still need testing. A storage recommendation is not certification of every provider or connector.
 
 | Area | Evidence and limit |
 |---|---|
@@ -14,12 +14,12 @@ This source tree is the **0.6.0-beta.2 candidate**, not a claim of a published r
 
 ## Use and reporting
 
-Read the installation guide for the exact candidate package. Do not substitute a previous public release when testing this candidate. A repository checkout needs a package build before it can be used as a receipt-tracked installation.
+Use the installable ZIP linked in [installation](../INSTALL.md). It contains the receipt needed for checked updates. Downloading repository source alone does not produce that receipt.
 
 Start with “Let's get started” when the host loads workspace instructions; otherwise open START-HERE.md explicitly. Personal life, learning, and work are supported. Public-source research, the GTM library, tools, and routines are optional.
 
 Use fictional or redacted records in public feedback. Include the exact version, host, request, observed behavior, and expected result. Keep personal OS folders, credentials, and private business records out of public issues.
 
-The [release checklist](release.md) remains a set of required checks. Only observed results count as completed validation. A future public release must update this record with actual package and runtime evidence.
+The [release checklist](release.md) remains a set of required checks. Only observed results count as completed validation. Update this record when additional package or runtime checks have actually been observed.
 
 The [resumption protocol](playbook-testing.md) describes the reproducible fictional trial. Status-only reads were checked against file hashes; write trials preserved sources and earlier drafts. Other listed variations remain test cases, not observed passes. Local results do not establish cross-provider synchronization or every model's behavior.

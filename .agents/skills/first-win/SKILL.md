@@ -11,6 +11,8 @@ Use paths relative to the Rewired workspace. Keep this workflow with its support
 
 Read `context/index.md`, `preferences.json`, and linked profile/setup files. Check whether this host can read and write the intended folder. Consult `docs/portability.md` if access is unclear.
 
+For a first install, recommend downloading the release ZIP into a new folder in the user's preferred shared storage, as described in `INSTALL.md`. For an existing OS or a change of assistant, use that same folder. A GitHub checkout or chat attachment does not establish access to the user's personal OS. Resolve an unknown storage location before saving personalization; reuse a confirmed location without asking again. Do not create an assistant-specific copy or move an existing OS by default. A user-chosen local folder is valid, but do not claim other devices or assistants can reach it without evidence.
+
 - For a concrete task, do that task. Offer setup only if the user asks.
 - For incomplete saved setup, recover the next unresolved choice.
 - For accepted setup, offer a targeted refresh when requested.

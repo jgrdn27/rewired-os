@@ -2,22 +2,22 @@
 
 **Change your AI. Keep your system.**
 
-A portable personal OS for your life, learning, projects, and work: context, sourced knowledge, working methods, and things to continue. Use it with the assistant and file provider that fit you. Your accumulated work stays in files you control when you change the model that helps you use it.
+A portable personal OS for your life, learning, projects, and work: context, sourced knowledge, working methods, and things to continue. Keep it in one shared folder you control, and give each assistant access to those same files. Your accumulated work stays with you when you change AI systems.
 
-Built as a general personal OS, with GTM operators and founders as its initial audience; the optional GTM Library adds practical methods and setup guides for selected tools. This checkout is the unpublished 0.6.0-beta.2 replacement candidate. Revised instructions require their own behavioral validation; broader host, provider, and vendor-account pilots remain pending. See [beta scope and evidence](docs/beta-status.md).
+Built as a general personal OS, with GTM operators and founders as its initial audience. The optional GTM Library adds practical methods and setup guides for selected tools.
 
 ## Start here
 
-This candidate has no public download URL yet. Use the maintainer-supplied `rewired-os-0.6.0-beta.2.zip` and checksum, or build a reviewed checkout using [distribution maintenance](docs/distribution.md). The older public beta does not contain these replacements. See [installation](INSTALL.md).
+1. **[Download the Rewired OS ZIP](https://github.com/jgrdn27/rewired-os/releases/download/v0.6.0-beta.3/rewired-os-0.6.0-beta.3.zip).** You do not need Git or a GitHub account. The [release page](https://github.com/jgrdn27/rewired-os/releases/tag/v0.6.0-beta.3) includes its checksum.
+2. **Unzip it into a new folder in your preferred shared storage.** Google Drive, OneDrive, Box, or another service you use can hold your `Rewired-OS` folder. Keep the complete extracted folder together and let it finish syncing. It can stay private to you; “shared” means accessible to your assistants and devices.
+3. **Connect each assistant to that same folder.** Open its synced local folder in a file-capable assistant, or use a supported cloud connector to reach the same files. Confirm that the assistant can read them and, where needed, save changes there.
+4. **Ask your assistant to get started:**
 
-Give your assistant the candidate folder and ask it to follow START-HERE.md.
+   > Read START-HERE.md in my shared Rewired-OS folder and help me get started. Use this folder as my existing OS; keep my context and work here.
 
+The assistant guides you through personalization for life, work, or both. When you switch assistants, point the next one to the same folder and continue from the saved work.
 
-1. Follow [installation](INSTALL.md) with the provided release ZIP. Extract into a new folder on your laptop or preferred synced drive. Git and GitHub are not required to use it.
-2. Give your assistant access locally or through a supported connector. In a host that loads this workspace's guidance, say **“Let's get started”** or **“Let's go.”** If it does not load guidance automatically, point it to START-HERE.md once.
-3. Let the assistant guide you through personalizing the OS, one question at a time with suggested answers. Include personal life, work, or both. When relevant, share a website to save explaining your business; review what it finds. Choose a real task only when ready.
-
-An assistant needs actual file access. Uploaded files are snapshots; they do not automatically update originals. Read [START-HERE.md](START-HERE.md) and [portability](docs/portability.md) for the relevant access mode and its limits.
+**One folder is your OS.** A GitHub link gives an assistant the product source; it does not connect it to your personal folder. Separate copies inside individual agents become separate systems. Uploaded files are snapshots and need explicit writeback to keep the shared folder current. For access checks and setup details, see [installation](INSTALL.md) and [portability](docs/portability.md).
 
 ## Use ordinary language
 
@@ -66,7 +66,7 @@ For a selected source, ask the assistant to bring it into your OS. A fictional c
 
 The [installation guide](INSTALL.md) supports agent-assisted setup and ordinary ZIP extraction. Packaged releases record their stock version and file hashes. [Updates](UPDATE.md) preview first, preserve personal files, block conflicting product edits, and save recoverable product backups. Python 3.10+ is needed for checked installation and updates; the basic folder remains readable without it.
 
-Use the packaged release ZIP rather than the repository source archive. An agent can retrieve a selected release; the local helper itself does not download updates or run in the background. See [change notes](CHANGELOG.md) and the [private pilot](docs/distribution-testing.md).
+Use the packaged release ZIP linked above. Keep updating the same shared OS folder through the update guide, with one writer at a time and synchronization complete before another assistant takes over. See [change notes](CHANGELOG.md) and [tested capabilities and limits](docs/beta-status.md).
 
 ## Development and provenance
 

@@ -1,5 +1,12 @@
 # Rewired OS change notes
 
+## 0.6.0-beta.3 · 2026-10-29 · shared-folder setup
+
+- Leads setup with downloading the installable ZIP and extracting it into one shared folder in the user's preferred storage.
+- Directs every assistant to the same saved context and work; distinguishes repository access, separate copies, and uploads from the personal OS.
+- Removes replacement-candidate and older-release comparisons from the public introduction and installation path.
+- Adds explicit reuse of an existing shared folder to the setup workflow and supplies a release ZIP with its update receipt and checksum.
+
 ## 0.6.0-beta.2 · 2026-10-29 · unpublished playbook candidate
 
 - Adds an original file-based playbook workflow, reusable method and run templates, and a fictional sponsor campaign example.
