@@ -24,6 +24,8 @@ Keep approvals and execution explicit. A draft may be ready for review while the
 
 Add an output folder when there are actual outputs to organize. For a repeated process, keep the reusable method separate from dated run artifacts. Describe each needed stage's input, intended output, and completion check. Introduce a human review point where the user's preference or action scope requires one; do not add a permission stop between every reversible internal step.
 
+Use [playbook runs](playbooks.md) when those stages need evidence, waiting conditions, or continuation across sessions. Link each run from the brief. Keep its progress in that run or the existing authoritative tool, rather than repeating checkpoint status in the brief and index.
+
 Project setup and resumption preserve existing authorization. Sending, spending, publishing, and changing external records still depend on the task's scope. Closing a project does not silently delete its evidence or create recurring automation.
 
 Use one writer for a project brief at a time. When a sync conflict or another active writer is unresolved, preserve a separate handoff instead of overwriting state. Follow [portability](portability.md) for cloud write limits. With no write access, provide an unsaved brief without claiming it is registered.

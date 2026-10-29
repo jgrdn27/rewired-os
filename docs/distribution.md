@@ -9,7 +9,7 @@ Run from the untouched stock development folder, using Python 3.10+:
 ```sh
 python3 scripts/check_package.py
 python3 -m unittest discover -s tests -v
-python3 scripts/distribution.py build --output "../dist/rewired-os-0.6.0-beta.1.zip"
+python3 scripts/distribution.py build --output "../dist/rewired-os-0.6.0-beta.2.zip"
 ```
 
 Use a new output filename for each trial build; assets are never overwritten. The output must be outside the source folder. The helper only includes the explicit `release-manifest.json` allowlist, adds `.rewired/installed.json`, and writes a `.zip.sha256` sidecar. With identical inputs the ZIP is reproducible. An installed folder, unexpected files, unsafe paths, and symlinks are rejected. Git history and cache directories are not packaged.

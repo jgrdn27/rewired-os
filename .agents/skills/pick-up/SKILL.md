@@ -9,6 +9,8 @@ Begin at `work/index.md` in the Rewired root. Open the relevant project brief or
 
 Establish the latest accessible artifact, the status source and observation date, what is finished, and what remains. A path from another machine is not proof of access here. An exported task list is a dated snapshot, not a live account read.
 
+If the project links to a playbook run, follow that run's record and `docs/playbooks.md`. Check the evidence for its current checkpoint and the exact version covered by any approval. A changed artifact or newer report may require reconciliation. Use `workflows/run-playbook.md` when continuing execution; do not recreate a run or redo completed work merely because the assistant changed.
+
 If the route is absent, search narrowly. If sources disagree, explain the disagreement and check the authority that can resolve it. If no continuation record exists, say what is missing without reconstructing invented history.
 
 For a status question, return the answer and next action. For a request to continue, perform the authorized work, respecting any unresolved choice that materially changes the outcome. Do not treat a saved suggestion as an assignment.

@@ -15,4 +15,4 @@ Documentation checked 2026-10-05:
 
 Matching files establish packaging parity, not equivalent reasoning or tool behavior. Local Python ingestion requires Python 3.10+. Direct cloud ingestion, universal connector installation, and cross-device locking are not implemented. A host may require explicit instructions to read START-HERE rather than automatically loading a manual.
 
-Before claiming supported runtimes, test fresh sessions for manual loading, all nine workflow routes, source retrieval, resume points, and library activation. Record app/tool versions and differences. No global skills, accounts, hooks, or schedules are installed by this package.
+Before claiming supported runtimes, test fresh sessions for manual loading, all eleven workflow routes, source retrieval, resume points, and library activation. Record app/tool versions and differences. No global skills, accounts, hooks, or schedules are installed by this package.

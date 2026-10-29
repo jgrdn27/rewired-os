@@ -18,3 +18,5 @@ Add a concise route from `work/index.md`. If writing is unavailable, return an u
 When the request includes execution, continue beyond setup to the next authorized action. Check the result against the project's completion criteria and the fresh-reader questions in `docs/projects.md`. Leave exact artifact links, unresolved conditions, and the next action. Do not claim a separate-session test unless one ran.
 
 Tools, library activation, stage gates, deadlines, and external actions are not mandatory consequences of starting a project.
+
+When the request involves executing a repeatable process, read `docs/playbooks.md` and use `workflows/run-playbook.md`. The project brief links to its runs; each run keeps its own checkpoint evidence. Do not add run records to a one-off task without a useful reason.

@@ -4,7 +4,9 @@ Rewired OS is developed for and directed by Jérémy Grandillon, with AI-assiste
 
 ## This edition
 
-The 0.6.0-beta.1 candidate replaces the workspace operating manual and all nine canonical workflows using the [Rewired product contract](docs/product-contract.md). Runtime and visible workflow copies are generated from those canonical files. Existing route identifiers and data formats are retained for compatibility.
+The 0.6.0-beta.2 candidate adds independently authored playbook execution and method-capture workflows, templates, a sponsor example, and a resumption trial. These extend Rewired's existing project records and evidence rules. No third-party playbook implementation, source text, or runtime is bundled in this addition.
+
+The 0.6.0-beta.1 candidate replaced the workspace operating manual and its nine canonical workflows using the [Rewired product contract](docs/product-contract.md). Runtime and visible workflow copies are generated from canonical files. Existing route identifiers and data formats are retained for compatibility.
 
 The Python knowledge and distribution helpers, tests, source-preserving wiki, project records, templates, and optional GTM guides are retained after source comparison. No external operating-system framework, scoring rubric, interview script, visualizer, or framework-branded artifact is included in this edition.
 
