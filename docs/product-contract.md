@@ -1,6 +1,6 @@
 # Rewired OS product contract
 
-Edition: 0.6.0-beta.3. Owner: Jérémy Grandillon. Date: 2026-10-29.
+Edition: 0.6.0-beta.4. Owner: Jérémy Grandillon. Date: 2026-11-13.
 
 This contract describes the behavior to implement and test. It is based on the owner's requirements for a portable personal system, with an optional professional library. Existing file formats are compatibility interfaces, not a requirement to reproduce an earlier implementation.
 
@@ -38,6 +38,7 @@ This contract describes the behavior to implement and test. It is based on the o
 | P20 | Resumption follows actual checkpoint evidence and authorization for the selected version. | A new assistant continues the next permitted step, preserves an approved version, and does not infer publication from a draft or elapsed date. |
 | P21 | A saved personal method separates repeatable practice from run-specific facts and authority. | Capture preserves meaningful constraints, labels untested steps, and does not carry a previous run's approval or completion into the next one. |
 | P22 | Setup recommends one shared personal OS folder and reuses it across assistants. | Repository-only access does not trigger personalization in a separate agent checkout; an existing confirmed shared folder is reused without relocation or repeated setup. |
+| P23 | Substantial drafts and requested edits use the writing quality guide before delivery. | A customer follow-up leads with the agreed next step, omits redundant recap, and preserves the terms and qualifications in the source. |
 
 ## Implementation boundaries
 

@@ -10,7 +10,7 @@ When the user requests a saved profile, use [the voice template](../templates/vo
 
 ## Edit with restraint
 
-Lead with the useful point for this reader. Remove repetition, unsupported emphasis, filler, and unnecessary framing. Keep natural wording and intentional rhythm. Formatting, sentence length, humor, or a rhetorical device can be useful; do not impose a universal ban merely because a model also uses it. Preserve a good passage when editing would add no value.
+Use the [writing quality guide](writing-quality.md) to focus the edit on the reader's purpose, relevant details, and faithful meaning. Keep natural wording and intentional rhythm. Preserve formatting, humor, and rhetorical devices when they serve the piece.
 
 Use one focused revision and one factual comparison. Rework only material problems found in that comparison; there is no mandatory multi-pass engine, detector score, or extra model call. The target is a useful draft the user recognizes, not an assertion that AI authorship can be hidden.
 

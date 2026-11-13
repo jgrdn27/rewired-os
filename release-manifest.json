@@ -1,5 +1,5 @@
 {
-  "version": "0.6.0-beta.3",
+  "version": "0.6.0-beta.4",
   "files": [
     ".agents/skills/bring-in/SKILL.md",
     ".agents/skills/bring-in/agents/openai.yaml",
@@ -74,6 +74,7 @@
     "docs/routines.md",
     "docs/runtimes.md",
     "docs/setup-testing.md",
+    "docs/writing-quality.md",
     "examples/fictional-call.md",
     "examples/fictional-project/PROJECT.md",
     "examples/fictional-project/pilot-outline.md",

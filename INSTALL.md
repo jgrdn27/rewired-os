@@ -2,7 +2,7 @@
 
 **Change your AI. Keep your system.** Download once, keep your OS in a shared folder you control, and give each assistant access to that same folder.
 
-**[Download the installable ZIP](https://github.com/jgrdn27/rewired-os/releases/download/v0.6.0-beta.3/rewired-os-0.6.0-beta.3.zip)** and get its checksum from the [release page](https://github.com/jgrdn27/rewired-os/releases/tag/v0.6.0-beta.3). The packaged ZIP includes the installation receipt used for safe updates. You do not need Git or a GitHub account.
+**[Download the installable ZIP](https://github.com/jgrdn27/rewired-os/releases/download/v0.6.0-beta.4/rewired-os-0.6.0-beta.4.zip)** and get its checksum from the [release page](https://github.com/jgrdn27/rewired-os/releases/tag/v0.6.0-beta.4). The packaged ZIP includes the installation receipt used for safe updates. You do not need Git or a GitHub account.
 
 Choose Google Drive, OneDrive, Box, or another storage service you prefer. The folder can remain private to you. What matters is that the assistants and devices you use can reach the same saved context and work through a synced local folder or a supported connector.
 
@@ -43,7 +43,7 @@ Keep the original ZIP and its checksum outside the working OS. No repository, ac
 Read the instructions and obtain the helper from the trusted package first. Run it from the extracted stock folder, with the ZIP kept separately. Replace the sample names and use quoted absolute paths for paths containing spaces:
 
 ```sh
-python3 scripts/distribution.py install --package "/path/to/rewired-os-0.6.0-beta.3.zip" --destination "/path/to/synced-drive/My Rewired OS" --sha256 "EXPECTED_SHA256"
+python3 scripts/distribution.py install --package "/path/to/rewired-os-0.6.0-beta.4.zip" --destination "/path/to/synced-drive/My Rewired OS" --sha256 "EXPECTED_SHA256"
 ```
 
 The destination's parent must exist; the destination must not exist, even as an empty folder. The helper validates the inventory and hashes, rejects unsafe archive paths and symlinks, stages the files, and installs the complete folder. A failed validation creates no destination. Do not pass the literal placeholder checksum; use the supplied 64-character digest.

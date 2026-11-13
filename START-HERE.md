@@ -2,7 +2,7 @@
 
 **Change your AI. Keep your system.** A personal OS for your life, learning, projects, and work. Your model supplies intelligence; these files keep the context and continuity.
 
-Download the [Rewired OS ZIP](https://github.com/jgrdn27/rewired-os/releases/download/v0.6.0-beta.3/rewired-os-0.6.0-beta.3.zip) and unzip it once into a new folder in Google Drive, OneDrive, Box, or your preferred shared storage. Keep the complete folder together and let it sync. Each assistant should use this same personal OS folder.
+Download the [Rewired OS ZIP](https://github.com/jgrdn27/rewired-os/releases/download/v0.6.0-beta.4/rewired-os-0.6.0-beta.4.zip) and unzip it once into a new folder in Google Drive, OneDrive, Box, or your preferred shared storage. Keep the complete folder together and let it sync. Each assistant should use this same personal OS folder.
 
 Give your assistant access to the folder and ask: **“Read START-HERE.md in my shared Rewired-OS folder and help me get started.”** Once the host loads its guidance, **“Let's get started”** or **“Let's go”** is enough. You do not need a website or a business to begin.
 

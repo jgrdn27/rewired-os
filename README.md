@@ -8,7 +8,7 @@ Built as a general personal OS, with GTM operators and founders as its initial a
 
 ## Start here
 
-1. **[Download the Rewired OS ZIP](https://github.com/jgrdn27/rewired-os/releases/download/v0.6.0-beta.3/rewired-os-0.6.0-beta.3.zip).** You do not need Git or a GitHub account. The [release page](https://github.com/jgrdn27/rewired-os/releases/tag/v0.6.0-beta.3) includes its checksum.
+1. **[Download the Rewired OS ZIP](https://github.com/jgrdn27/rewired-os/releases/download/v0.6.0-beta.4/rewired-os-0.6.0-beta.4.zip).** You do not need Git or a GitHub account. The [release page](https://github.com/jgrdn27/rewired-os/releases/tag/v0.6.0-beta.4) includes its checksum.
 2. **Unzip it into a new folder in your preferred shared storage.** Google Drive, OneDrive, Box, or another service you use can hold your `Rewired-OS` folder. Keep the complete extracted folder together and let it finish syncing. It can stay private to you; “shared” means accessible to your assistants and devices.
 3. **Connect each assistant to that same folder.** Open its synced local folder in a file-capable assistant, or use a supported cloud connector to reach the same files. Confirm that the assistant can read them and, where needed, save changes there.
 4. **Ask your assistant to get started:**
@@ -50,7 +50,7 @@ Setup offers on-demand or light assistance. Light assistance makes relevant sugg
 
 The optional [GTM Library](library/README.md) includes original Rewired playbooks and researched profiles for lemlist, FullEnrich, Clay, and Claap, the default meeting recorder. Each use case supports user-selected alternatives through current tool research and guided setup. Activating guidance does not install software or connect accounts. Asking to set up a selected tool starts guided setup, using existing authorization and pausing only for missing material choices or user-controlled sign-in.
 
-The [intake-health report](docs/ingestion-health.md) shows local import outcomes, pending files, and integrity gaps. Source dates stay separate from ingestion dates. The optional [editing workflow](docs/editing.md) uses relevant voice evidence and preserves meaning; it runs when requested, not on every response.
+The [intake-health report](docs/ingestion-health.md) shows local import outcomes, pending files, and integrity gaps. Source dates stay separate from ingestion dates. Rewired OS uses the [writing quality guide](docs/writing-quality.md) for substantial drafts. Use the [editing workflow](docs/editing.md) to polish a draft for a specific audience or voice.
 
 ## Optional local helpers
 
