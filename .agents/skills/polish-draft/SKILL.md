@@ -5,11 +5,11 @@ description: Revise a selected draft for clarity, length, audience, or the user'
 
 # Edit the selected draft
 
-Resolve the Rewired root. Read the draft, the request, and `docs/editing.md`. Retrieve relevant approved voice samples through `context/index.md` only when voice matching is part of the task.
+Resolve the Rewired root. Read the draft, the request, `docs/editing.md`, and `docs/writing-quality.md`. Retrieve relevant approved voice samples through `context/index.md` only when voice matching is part of the task.
 
 Infer audience and channel from the supplied context. Use explicit editing instructions first. When no voice evidence exists, preserve the draft's register or use clear neutral prose; do not promise a personal voice match. A straightforward clarity edit does not require a sample.
 
-Revise once with the requested purpose in mind. Compare against the original for numbers, negation, conditions, quotations, citations, and uncertainty. Resolve ambiguities that would change meaning; retain other uncertainty. Do not add experiences, emotions, proof, urgency, or performance claims.
+Use the writing quality guide during one focused revision. Compare against the original for numbers, negation, conditions, quotations, citations, and uncertainty. Resolve ambiguities that would change meaning; retain other uncertainty. Do not add experiences, emotions, proof, urgency, or performance claims.
 
 Return the revision in the requested format and destination. Mention material unresolved issues briefly. If a length constraint cannot fit essential qualifications, make the tradeoff explicit. For in-place file edits, preserve unrelated content and intentional structure. Never overwrite a raw source original.
 

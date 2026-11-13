@@ -1,5 +1,9 @@
 # Rewired OS change notes
 
+## 0.6.0-beta.4 · 2026-11-13 · writing quality
+
+- Adds a writing quality guide inspired by Meta AI's Unslop research. Rewired OS uses it for substantial drafts and for requested edits through `polish-draft`.
+
 ## 0.6.0-beta.3 · 2026-10-29 · shared-folder setup
 
 - Leads setup with downloading the installable ZIP and extracting it into one shared folder in the user's preferred storage.

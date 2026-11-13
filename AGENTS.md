@@ -21,6 +21,7 @@ For an established workspace, recover the relevant facts and work record, then a
 | A decision to explore | [think-it-through](workflows/think-it-through.md) |
 | Review of work or recurring friction | [work-review](workflows/work-review.md) |
 | A failure, integrity question, or health check | [system-check](workflows/system-check.md) |
+| Writing a substantial draft | [Writing quality guide](docs/writing-quality.md) |
 | Editing a selected draft | [polish-draft](workflows/polish-draft.md) |
 | GTM methods or a requested business tool | [use-gtm](workflows/use-gtm.md), only when relevant |
 | Connection identity and observed capabilities | [Connections](connections.md) |
@@ -29,6 +30,8 @@ For an established workspace, recover the relevant facts and work record, then a
 | Installation or a requested update | [Install](INSTALL.md) or [update](UPDATE.md) |
 
 Open the selected route and follow the evidence it points to. Expand the search only when necessary. Keep indexes as navigation; put changing task state in its authoritative record.
+
+When writing a substantial draft such as a post, customer email, proposal, or report, read the [writing quality guide](docs/writing-quality.md) alongside any task-specific workflow. Apply it while drafting and do a brief review before returning or saving the result. For quick answers, follow the request directly.
 
 ## Work from evidence
 

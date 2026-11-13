@@ -1,11 +1,12 @@
-# Tested capabilities and limits · 2026-10-29
+# Tested capabilities and limits · 2026-11-13
 
-Rewired OS 0.6.0-beta.3 uses a shared personal folder for continuity between assistants. The tables below distinguish observed checks from capabilities that still need testing. A storage recommendation is not certification of every provider or connector.
+Rewired OS 0.6.0-beta.4 adds a writing quality guide for substantial drafts and requested edits. The table distinguishes observed checks from capabilities that still need testing.
 
 | Area | Evidence and limit |
 |---|---|
 | Product instructions | Eleven canonical workflows with matching host and visible copies. Playbook runs extend the existing project records using plain files. |
-| Local helpers | 52 deterministic tests passed on 2026-10-29, including preservation of personal playbooks, run evidence, and post-update user edits through update and restore. |
+| Local helpers | 52 deterministic tests passed for beta.4, including preservation of personal playbooks, run evidence, and post-update user edits through update and restore. |
+| Writing quality | Package validation checks the guide's inclusion and links, plus workflow parity. The effect on draft quality remains unmeasured. |
 | Content provenance | Playbook workflows, templates, example, and test fixture independently authored for Rewired. Prior component review remains historical evidence, not legal certification. |
 | Compatibility | Existing skill identifiers, user-state formats, and installation receipt schema retained. Actual upgrade and rollback require release validation. |
 | Assistant behavior | Fresh-context Codex trials passed correction/version handling and method capture. Separate Codex CLI 0.147.0 sessions recovered the pending review without file changes, then recorded explicit v2 content approval and prepared a checklist without publication. Model identifiers were not captured. |
