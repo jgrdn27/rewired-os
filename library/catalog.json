@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "library": "gtm",
-  "version": "0.2.1-preview",
+  "version": "0.3.0-preview",
   "review_owner": "Rewired OS editorial",
   "review_interval_days": 30,
   "automatic_updates": false,
@@ -15,7 +15,7 @@
         "remote-mcp"
       ],
       "reviewed_skill_commit": "f3a97eae61b12b77d09a72d605087f76f8e19ba3",
-      "license_review": "MIT declared in README/package; standalone notice not found; link only",
+      "license_review": "MIT declared in retained upstream README/package; no standalone notice supplied; partner collection included at owner request",
       "official_sources": [
         "https://developer.lemlist.com/cli/overview",
         "https://help.lemlist.com/en/articles/13728466-set-up-the-lemlist-mcp-server-in-your-llm-client-oauth-or-api-key",
@@ -25,9 +25,17 @@
       "last_reviewed": "2026-10-05",
       "verification": "documentation-reviewed",
       "live_tested": false,
-      "vendor_content_bundled": false,
-      "commercial_relationship": "not_configured",
-      "review_basis": "official-documentation-and-repository"
+      "vendor_content_bundled": true,
+      "commercial_relationship": "partner",
+      "review_basis": "official-documentation-and-repository",
+      "bundled_skills": {
+        "index": "library/skills/lemlist/README.md",
+        "manifest": "library/skills/lemlist/manifest.json",
+        "count": 38,
+        "imported_on": "2026-11-17",
+        "verification": "byte-integrity-and-package-checks; behavioral and live integration tests pending"
+      },
+      "commercial_relationship_source": "Owner confirmation on 2026-11-17; payment and affiliate terms unspecified"
     },
     {
       "id": "fullenrich",

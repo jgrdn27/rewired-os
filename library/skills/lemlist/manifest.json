@@ -1,0 +1,202 @@
+{
+  "schema": 1,
+  "vendor": "lemlist",
+  "source_repository": "https://github.com/l3mpire/claude-skills",
+  "source_commit": "f3a97eae61b12b77d09a72d605087f76f8e19ba3",
+  "imported_on": "2026-11-17",
+  "archive_name": "claude-skills-main.zip",
+  "archive_sha256": "7b15a6288e9f7162e4922646132976eff9cf1a33da9ccea52a351b4bb247e01c",
+  "content_policy": "Unmodified SKILL.md files; upstream installer is not bundled or executed.",
+  "skills": [
+    {
+      "id": "campaign-angle-finder",
+      "path": "library/skills/lemlist/campaign-angle-finder/SKILL.md",
+      "sha256": "661213299acc7494cdacbfe0b72d259819b725d9015bafd9a414109b377233f1"
+    },
+    {
+      "id": "claap-sales-opportunity-detector",
+      "path": "library/skills/lemlist/claap-sales-opportunity-detector/SKILL.md",
+      "sha256": "7cac2882c02cfecaad04fbb1ce407d1df0ecee3f3484e09529869ea954a259cb"
+    },
+    {
+      "id": "cold-call-script",
+      "path": "library/skills/lemlist/cold-call-script/SKILL.md",
+      "sha256": "0ee845504eec206444331cfe9348017a95529acaf0ed75bb6a2771ba823806c2"
+    },
+    {
+      "id": "company-finder",
+      "path": "library/skills/lemlist/company-finder/SKILL.md",
+      "sha256": "629fc79454a975f5e7fb8aaf4d79a12b77d7f7931202844d5c8b1736f9beef3d"
+    },
+    {
+      "id": "competitor-finder",
+      "path": "library/skills/lemlist/competitor-finder/SKILL.md",
+      "sha256": "41b6fce3d4ca5a2b21c0661679e3e39f2471ee2910708cfea176c90eb17b9d54"
+    },
+    {
+      "id": "copywriting-analyzer",
+      "path": "library/skills/lemlist/copywriting-analyzer/SKILL.md",
+      "sha256": "371d78bf5bb8c834c142ae9d196942569ce30385940ce4a65baa9816d55dc287"
+    },
+    {
+      "id": "copywriting-first-touch",
+      "path": "library/skills/lemlist/copywriting-first-touch/SKILL.md",
+      "sha256": "1b50e38e3c62d343d746b9f7d8f2855832531c80beedac335e96a5fc9894d90f"
+    },
+    {
+      "id": "copywriting-follow-up",
+      "path": "library/skills/lemlist/copywriting-follow-up/SKILL.md",
+      "sha256": "6d924645d8c343fd0aa9cc0155a5edaabc3bce9bd8d642126af50bd5d44b7bce"
+    },
+    {
+      "id": "copywriting-ic-sequence",
+      "path": "library/skills/lemlist/copywriting-ic-sequence/SKILL.md",
+      "sha256": "3b8bcbf3bf50e74fec205089c37ba997c30e377a727ef23e1782a81164f2b9f7"
+    },
+    {
+      "id": "copywriting-manager-sequence",
+      "path": "library/skills/lemlist/copywriting-manager-sequence/SKILL.md",
+      "sha256": "bd98f694c4dce5ab692078e8f2ca360f32afec6d3a355f7f362bbc2654705cc3"
+    },
+    {
+      "id": "copywriting-refiner",
+      "path": "library/skills/lemlist/copywriting-refiner/SKILL.md",
+      "sha256": "f1bd44aa9c82d442639fdab0d86129f76b4af5979159ad0ca52b80c72085c933"
+    },
+    {
+      "id": "copywriting-vp-sequence",
+      "path": "library/skills/lemlist/copywriting-vp-sequence/SKILL.md",
+      "sha256": "a0fbaa9a2d23aa472d294ade37f698d293131ba9fd3eff87e8ad5ef818c1b31d"
+    },
+    {
+      "id": "crm-duplicate-detector",
+      "path": "library/skills/lemlist/crm-duplicate-detector/SKILL.md",
+      "sha256": "0a571c90f63c64469a1d05553fb13d288c44e3eb4b83647c281f068ca89ad39e"
+    },
+    {
+      "id": "cta-designer",
+      "path": "library/skills/lemlist/cta-designer/SKILL.md",
+      "sha256": "e714d9c1d75924549484f9a62631c9049bb2fb9a2ea6cd7e8919552bc870eb6e"
+    },
+    {
+      "id": "deep-company-analyser",
+      "path": "library/skills/lemlist/deep-company-analyser/SKILL.md",
+      "sha256": "4c2c7ee58b0f1f005d7eb64ed69155dc2147f700f39f321050e425d5c9ccf9e1"
+    },
+    {
+      "id": "gtm-action-thinker",
+      "path": "library/skills/lemlist/gtm-action-thinker/SKILL.md",
+      "sha256": "580e7e56c7841f50235273150bf4de9578ba9af3b57ede2d793437ac91332120"
+    },
+    {
+      "id": "icp-definer",
+      "path": "library/skills/lemlist/icp-definer/SKILL.md",
+      "sha256": "a0e2b75afc049c0ed14bbbb4a34e7240f673695d6a1b617ebff829772390cd08"
+    },
+    {
+      "id": "linkedin-outbound-angle",
+      "path": "library/skills/lemlist/linkedin-outbound-angle/SKILL.md",
+      "sha256": "018298c998f78ffdcbe77af6fc0955cef36ee25d50e5bdda2562a03d45b08fe1"
+    },
+    {
+      "id": "linkedin-sequence",
+      "path": "library/skills/lemlist/linkedin-sequence/SKILL.md",
+      "sha256": "dcdc60bdabedf70166d1d34984e441ab12ccac31fd5dc1f785cb0c2a7819a7d1"
+    },
+    {
+      "id": "list-builder",
+      "path": "library/skills/lemlist/list-builder/SKILL.md",
+      "sha256": "4bc0a2a09c6df126946211659769c6cd5b4a84acc541be4881ec53769ea2f57e"
+    },
+    {
+      "id": "market-research-edp",
+      "path": "library/skills/lemlist/market-research-edp/SKILL.md",
+      "sha256": "eed7dbf48519afe05a93de98fac2f2f0572b5f6de317781c586a74c1e7760b93"
+    },
+    {
+      "id": "n8n-debugger",
+      "path": "library/skills/lemlist/n8n-debugger/SKILL.md",
+      "sha256": "d468530d25c58746425dc320dea801236ccfdd39976185ae1726dfb6bd8d0acc"
+    },
+    {
+      "id": "n8n-workflow-builder",
+      "path": "library/skills/lemlist/n8n-workflow-builder/SKILL.md",
+      "sha256": "fa6aef9e03b275df3298960a4872112dec083eadcb6b67d54ebd12294580f0e5"
+    },
+    {
+      "id": "niche-data-finder",
+      "path": "library/skills/lemlist/niche-data-finder/SKILL.md",
+      "sha256": "31cfc08430d4bee7a909078a02b9e67ac66af561f110f7f5f8f35422062149e2"
+    },
+    {
+      "id": "offer-definer",
+      "path": "library/skills/lemlist/offer-definer/SKILL.md",
+      "sha256": "8077261ee26a2557ac3f3c2e3236023eca50cee9b2607d718ab30e7768191934"
+    },
+    {
+      "id": "outbound-analyst",
+      "path": "library/skills/lemlist/outbound-analyst/SKILL.md",
+      "sha256": "240492b7fa7da2195995e0810052ae6a63c75469aad3a5e26176e68838ec207c"
+    },
+    {
+      "id": "outbound-campaign-architect",
+      "path": "library/skills/lemlist/outbound-campaign-architect/SKILL.md",
+      "sha256": "e3725f9397a6a96017652b03f1c47b75147530d455e8c614765bfc019c523198"
+    },
+    {
+      "id": "pain-identifier",
+      "path": "library/skills/lemlist/pain-identifier/SKILL.md",
+      "sha256": "63b5ff093c1d19340bf77b8c9e637d20a408a347132e3a0608f304e2b1452535"
+    },
+    {
+      "id": "people-finder",
+      "path": "library/skills/lemlist/people-finder/SKILL.md",
+      "sha256": "63e322a5f13f10926fc7f7d2c8e9d5cbe0403915cb55d3b4f2ee5fe75c705f58"
+    },
+    {
+      "id": "persona-definer",
+      "path": "library/skills/lemlist/persona-definer/SKILL.md",
+      "sha256": "5c769f8fbb54bc283fc7eb24876af62f2695e90bad6ecb495fe268e88c60aafc"
+    },
+    {
+      "id": "persona-insights-analysis",
+      "path": "library/skills/lemlist/persona-insights-analysis/SKILL.md",
+      "sha256": "668e5a39488751b980eb3021c30f937400686887f28a55b69b89c69a7da86a69"
+    },
+    {
+      "id": "pipeline-analysis",
+      "path": "library/skills/lemlist/pipeline-analysis/SKILL.md",
+      "sha256": "ca16dffe638ec627f277d9902d0ab49b5c60e82eda68c50a4206eb6ecd6051ec"
+    },
+    {
+      "id": "prompt-engineering",
+      "path": "library/skills/lemlist/prompt-engineering/SKILL.md",
+      "sha256": "70cc5474839771b4670f1d04f8b92b6b310e09fafd8100662a7e486ea354b935"
+    },
+    {
+      "id": "reply-handler",
+      "path": "library/skills/lemlist/reply-handler/SKILL.md",
+      "sha256": "0b3c84fb6fe547bae912791f602333d214fd9c3458aa1b300d3d81b68695e2ae"
+    },
+    {
+      "id": "slide-deck-builder",
+      "path": "library/skills/lemlist/slide-deck-builder/SKILL.md",
+      "sha256": "a1bc8109462edbc0f34f81bec70fc9ad1faf730d6673b0bb814f2c7003c6e03c"
+    },
+    {
+      "id": "trigger-finder",
+      "path": "library/skills/lemlist/trigger-finder/SKILL.md",
+      "sha256": "2885f2b0c23a6c0d9ee4fb27070611b4e04c730b1938165e1670d5d354434d26"
+    },
+    {
+      "id": "value-prop-lister",
+      "path": "library/skills/lemlist/value-prop-lister/SKILL.md",
+      "sha256": "34edbf20892973451146ea1805f16c88a0569e97c15d20750cf7ce69edbe9390"
+    },
+    {
+      "id": "website-scraper",
+      "path": "library/skills/lemlist/website-scraper/SKILL.md",
+      "sha256": "fe585cd297bd4c7b6edff8b75bd974a6c16886bb520453f661b3eff1b1c857cf"
+    }
+  ]
+}

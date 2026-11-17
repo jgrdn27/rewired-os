@@ -1,5 +1,11 @@
 # Rewired OS change notes
 
+## 0.6.0-beta.5 · 2026-11-17 · lemlist partner skills
+
+- Includes 38 unchanged lemlist partner skills in the GTM Library, with a categorized index, pinned source, file hashes, and upstream MIT declarations.
+- Routes ordinary-language requests through Use GTM without another installer; adds guidance for Claude-specific paths and tool assumptions.
+- Discloses the lemlist partnership separately from live verification and preserves optional library activation and user tool choices.
+
 ## 0.6.0-beta.4 · 2026-11-13 · writing quality
 
 - Adds a writing quality guide inspired by Meta AI's Unslop research. Rewired OS uses it for substantial drafts and for requested edits through `polish-draft`.

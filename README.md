@@ -4,11 +4,11 @@
 
 A portable personal OS for your life, learning, projects, and work: context, sourced knowledge, working methods, and things to continue. Keep it in one shared folder you control, and give each assistant access to those same files. Your accumulated work stays with you when you change AI systems.
 
-Built as a general personal OS, with GTM operators and founders as its initial audience. The optional GTM Library adds practical methods and setup guides for selected tools.
+Built as a general personal OS, with GTM operators and founders as its initial audience. The optional GTM Library adds practical methods, setup guides, and [38 included lemlist partner skills](library/skills/lemlist/README.md).
 
 ## Start here
 
-1. **[Download the Rewired OS ZIP](https://github.com/jgrdn27/rewired-os/releases/download/v0.6.0-beta.4/rewired-os-0.6.0-beta.4.zip).** You do not need Git or a GitHub account. The [release page](https://github.com/jgrdn27/rewired-os/releases/tag/v0.6.0-beta.4) includes its checksum.
+1. **[Download the Rewired OS ZIP](https://github.com/jgrdn27/rewired-os/releases/download/v0.6.0-beta.5/rewired-os-0.6.0-beta.5.zip).** You do not need Git or a GitHub account. The [release page](https://github.com/jgrdn27/rewired-os/releases/tag/v0.6.0-beta.5) includes its checksum.
 2. **Unzip it into a new folder in your preferred shared storage.** Google Drive, OneDrive, Box, or another service you use can hold your `Rewired-OS` folder. Keep the complete extracted folder together and let it finish syncing. It can stay private to you; “shared” means accessible to your assistants and devices.
 3. **Connect each assistant to that same folder.** Open its synced local folder in a file-capable assistant, or use a supported cloud connector to reach the same files. Confirm that the assistant can read them and, where needed, save changes there.
 4. **Ask your assistant to get started:**

@@ -4,6 +4,8 @@ Rewired OS is a normal folder, usable without Git or GitHub. Start with `START-H
 
 For development, `.agents/skills` is the authoring source. `scripts/sync_skills.py` generates byte-identical `.claude/skills` packages and visible `workflows/<name>.md` files. Do not hand-edit generated copies. These methods resolve paths from the OS root, never from the skill's own folder.
 
+The bundled lemlist originals live under `library/skills/lemlist/`, outside native auto-discovery. The existing Use GTM adapter selects them on demand through their visible index. This keeps optional GTM guidance scoped while allowing any file-capable assistant to use the same collection.
+
 Codex reads root `AGENTS.md`; Claude's root `CLAUDE.md` imports it. Open this folder as the workspace root. Do not copy only the skill folders: the workflows depend on the manual, indexes, library, and optional helpers.
 
 Documentation checked 2026-10-05:
@@ -15,4 +17,4 @@ Documentation checked 2026-10-05:
 
 Matching files establish packaging parity, not equivalent reasoning or tool behavior. Local Python ingestion requires Python 3.10+. Direct cloud ingestion, universal connector installation, and cross-device locking are not implemented. A host may require explicit instructions to read START-HERE rather than automatically loading a manual.
 
-Before claiming supported runtimes, test fresh sessions for manual loading, all eleven workflow routes, source retrieval, resume points, and library activation. Record app/tool versions and differences. No global skills, accounts, hooks, or schedules are installed by this package.
+Before claiming supported runtimes, test fresh sessions for manual loading, all workflow routes, source retrieval, resume points, and library activation. Record app/tool versions and differences. No global skills, accounts, hooks, or schedules are installed by this package.

@@ -2,7 +2,7 @@
 
 Optional GTM methods, tool setup guides, and reusable skills. Start with a business outcome, use the user's preferred tools where they fit, and carry the resulting knowledge back into the OS.
 
-The starter includes original Rewired instructions. Third-party skill collections are linked, not copied or installed. No accounts, paid plans, or sponsorships are bundled. Tool documentation was researched on 2026-10-05; no live account connection was tested.
+The library includes original Rewired methods and the [38 bundled lemlist partner skills](skills/lemlist/README.md). GTM Rewired and lemlist are partners, confirmed by the owner on 2026-11-17. Other third-party collections remain linked. No accounts or paid plans are bundled. Tool setup documentation was researched on 2026-10-05; no live account connection was tested.
 
 ## Activate only what helps
 
@@ -30,7 +30,7 @@ These are original Rewired methods, proposed for pilot validation. They do not p
 ## Tool profiles
 
 - [Claap](tools/claap.md): meeting recording setup, MCP/API retrieval, transcript export fallback.
-- [lemlist](tools/lemlist.md): outreach workflow, CLI/MCP routes, optional official skills.
+- [lemlist](tools/lemlist.md): outreach workflow, CLI/MCP routes, and [38 included partner skills](skills/lemlist/README.md) for strategy, lists, campaigns, copywriting, analysis, and automation.
 - [FullEnrich](tools/fullenrich.md): contact enrichment/search, MCP/API routes, optional official skills.
 - [Clay](tools/clay.md): research and enrichment orchestration, plugin/CLI route, separate MCP considerations.
 

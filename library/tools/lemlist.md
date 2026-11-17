@@ -16,11 +16,11 @@ After the requested setup and secure sign-in, confirm the intended account. Insp
 
 Inspect the [MCP tool reference](https://help.lemlist.com/en/articles/15565943-lemlist-mcp-full-tools-reference) or live CLI schema for the requested operation. List, search/enrichment, campaign changes, and launch have different effects. Do not infer that every available read is free or every mutation is authorized. Check entitlement, rate limits, cost, and destination before acting.
 
-## Optional vendor skills
+## Included partner skills
 
-The [official collection](https://github.com/l3mpire/claude-skills/tree/f3a97eae61b12b77d09a72d605087f76f8e19ba3) was reviewed at `f3a97eae61b12b77d09a72d605087f76f8e19ba3`. Its installer targets Claude skills, defaults to a global location, and supports selected project-local skills with `--project`. Rewired does not install the whole collection. Select only relevant skills after checking compatibility, destination, and existing files; avoid blanket overwrite flags.
+The [38-skill partner collection](../skills/lemlist/README.md) is included locally, at the owner's request on 2026-11-17. GTM Rewired and lemlist are partners. Ask for the relevant method in ordinary language; the Use GTM workflow reads the selected file without a separate install. This does not connect an account or require persistent library activation.
 
-README and package metadata declare MIT, but no standalone license file was found at that revision. Rewired bundles only its own instructions and links. Obtain the complete applicable notice before redistributing vendor material. No cross-host skill compatibility is claimed from the collection's existence alone.
+The supplied archive matches the previously reviewed revision `f3a97eae61b12b77d09a72d605087f76f8e19ba3`. Skill originals are unchanged, with hashes and retained upstream MIT declarations. Read the collection's compatibility guidance before applying Claude-specific paths, tools, benchmarks, or product assumptions. Packaging parity is verified separately from behavioral or live integration testing.
 
 ## Recovery and continuation
 
