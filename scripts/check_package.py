@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Check the stock foundation manifest, links, skill parity, and known leaks."""
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -63,6 +64,32 @@ for entry in catalog['tools']:
             errors.append('Invalid source revision: ' + entry['id'])
     elif entry.get('review_basis') != 'official-documentation' or revision is not None:
         errors.append('Invalid documentation-only review: ' + entry['id'])
+# Bundled partner files have a pinned, independently inspectable inventory.
+for entry in catalog['tools']:
+    bundle = entry.get('bundled_skills')
+    if not bundle:
+        continue
+    bundle_manifest = (root / bundle['manifest']).resolve()
+    bundle_index = (root / bundle['index']).resolve()
+    if not all(p.is_relative_to(root) and p.is_file() for p in (bundle_manifest, bundle_index)):
+        errors.append('Missing or unsafe partner collection: ' + entry['id'])
+        continue
+    inventory = json.loads(bundle_manifest.read_text())
+    skills = inventory['skills']
+    paths = [item['path'] for item in skills]
+    if (inventory['source_commit'] != entry['reviewed_skill_commit'] or
+            len(skills) != bundle['count'] or len(paths) != len(set(paths)) or
+            not entry['vendor_content_bundled']):
+        errors.append('Partner collection metadata mismatch: ' + entry['id'])
+    source_files = {p.relative_to(root).as_posix()
+                    for p in bundle_manifest.parent.glob('*/SKILL.md')}
+    if set(paths) != source_files:
+        errors.append('Partner skill inventory mismatch: ' + entry['id'])
+    for item in skills:
+        skill = (root / item['path']).resolve()
+        if (not skill.is_relative_to(bundle_manifest.parent) or not skill.is_file() or
+                hashlib.sha256(skill.read_bytes()).hexdigest() != item['sha256']):
+            errors.append('Partner skill integrity mismatch: ' + item['path'])
 use_cases = set()
 for entry in catalog['use_cases']:
     if entry['id'] in use_cases:
@@ -80,5 +107,5 @@ if preferences['libraries']['gtm'].get('tool_overrides') != {}:
     errors.append('Stock package must not include personal tool overrides')
 print(json.dumps({'files': len(expected), 'skills': len(list(source.glob('*/SKILL.md'))),
                   'library_tools': len(ids), 'issues': errors,
-                  'scope': 'Stock manifest, known-string scan, Markdown links, skill/workflow mirrors, library metadata; manual privacy and live integration review still required'}, indent=2))
+                  'scope': 'Stock manifest, known-string scan, Markdown links, skill/workflow mirrors, library metadata and partner hashes; manual privacy and live integration review still required'}, indent=2))
 raise SystemExit(bool(errors))

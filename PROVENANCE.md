@@ -12,7 +12,11 @@ The 0.6.0-beta.1 candidate replaced the workspace operating manual and its nine 
 
 The Python knowledge and distribution helpers, tests, source-preserving wiki, project records, templates, and optional GTM guides are retained after source comparison. No external operating-system framework, scoring rubric, interview script, visualizer, or framework-branded artifact is included in this edition.
 
-Standard Markdown, JSON, skill frontmatter, and host instruction filenames are interoperability conventions. Python helpers use the standard library without bundling third-party packages. Tool profiles point to official documentation; they do not bundle vendor software or grant access to vendor services. Product and service names identify their respective services and do not imply endorsement.
+Standard Markdown, JSON, skill frontmatter, and host instruction filenames are interoperability conventions. Python helpers use the standard library without bundling third-party packages. Tool profiles point to official documentation and do not grant access to vendor services. The lemlist partner skill collection described below is bundled as text; vendor executable installers are not included. Product and service names identify their respective services. The lemlist partnership is disclosed separately from capability verification.
+
+## lemlist partner contribution
+
+On 2026-11-17 the owner supplied the lemlist skill archive, confirmed the partnership, and explicitly requested inclusion in the GTM Library and publication to GitHub. The [collection](library/skills/lemlist/README.md) contains 38 unchanged `SKILL.md` files from `l3mpire/claude-skills` revision `f3a97eae61b12b77d09a72d605087f76f8e19ba3`. Its manifest records file hashes and the archive hash. Original README and package metadata are retained, including their MIT declarations. The archive and pinned source do not include a standalone license/copyright notice; no vendor notice has been invented. Vendor content retains its upstream attribution and is distinct from original Rewired contributions. The installer is omitted. Integration guidance and routing are original Rewired additions. No claim of live integration verification or universal host compatibility is made.
 
 ## Record boundaries
 

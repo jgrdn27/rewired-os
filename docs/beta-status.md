@@ -1,11 +1,13 @@
-# Tested capabilities and limits · 2026-11-13
+# Tested capabilities and limits · 2026-11-17
 
-Rewired OS 0.6.0-beta.4 adds a writing quality guide for substantial drafts and requested edits. The table distinguishes observed checks from capabilities that still need testing.
+Rewired OS 0.6.0-beta.5 bundles 38 lemlist partner skills with on-demand routing and host-compatibility guidance. Source integrity and package checks are separate from cross-assistant behavioral validation and live integration tests, which remain pending for this collection. The table distinguishes observed checks from capabilities that still need testing.
 
 | Area | Evidence and limit |
 |---|---|
 | Product instructions | Eleven canonical workflows with matching host and visible copies. Playbook runs extend the existing project records using plain files. |
-| Local helpers | 52 deterministic tests passed for beta.4, including preservation of personal playbooks, run evidence, and post-update user edits through update and restore. |
+| Local helpers | 52 deterministic tests passed for beta.5, including preservation of personal playbooks, run evidence, and post-update user edits through update and restore. |
+| lemlist partner skills | All 38 files match the supplied archive and pinned GitHub blobs. Package links, SHA-256 inventory, and adapter mirrors pass. Isolated mutations of skill content and inventory were rejected. Behavioral selection and live integrations remain untested. |
+| Release distribution | beta.4 → beta.5 update and rollback passed in an isolated fictional installation, preserving its profile and preferences. |
 | Writing quality | Package validation checks the guide's inclusion and links, plus workflow parity. The effect on draft quality remains unmeasured. |
 | Content provenance | Playbook workflows, templates, example, and test fixture independently authored for Rewired. Prior component review remains historical evidence, not legal certification. |
 | Compatibility | Existing skill identifiers, user-state formats, and installation receipt schema retained. Actual upgrade and rollback require release validation. |

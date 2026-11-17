@@ -12,8 +12,8 @@ Prefer user-owned tools that already satisfy the task. Compare alternatives by f
 
 ## Future commercial listings
 
-Paid listings are a possible future business model, not an existing relationship. A listing must pass the same technical and editorial criteria regardless of payment. Clearly label sponsorship and affiliate links next to the recommendation. Record the commercial relationship separately from verification status. Payment must not buy undisclosed ranking, fabricated benchmarks, claims of account access, or exclusive routing.
+GTM Rewired and lemlist are partners, confirmed by the owner on 2026-11-17. The bundled skill collection is a partner contribution; payment terms and affiliate arrangements are unspecified. Paid catalog listings remain a possible future business model, not an established arrangement. A listing must pass the same technical and editorial criteria regardless of payment. Clearly label sponsorship and affiliate links next to the recommendation. Record the commercial relationship separately from verification status. Payment must not buy undisclosed ranking, fabricated benchmarks, claims of account access, or exclusive routing.
 
 Keep partner promotional material separate from the user's operating guidance. Sponsors receive no user files, prospect data, telemetry, or contact details merely by appearing in the library. A vendor can provide an update for review; it cannot remotely replace installed instructions without the user's update policy.
 
-The catalog uses `commercial_relationship: "not_configured"` in this stock preview. That describes package configuration, not a claim about all of the creator's business relationships.
+The catalog records lemlist as `commercial_relationship: "partner"`. Other entries retain `"not_configured"`, describing package configuration rather than all of the creator's business relationships.

@@ -1,6 +1,6 @@
 # Rewired OS product contract
 
-Edition: 0.6.0-beta.4. Owner: Jérémy Grandillon. Date: 2026-11-13.
+Edition: 0.6.0-beta.5. Owner: Jérémy Grandillon. Date: 2026-11-17.
 
 This contract describes the behavior to implement and test. It is based on the owner's requirements for a portable personal system, with an optional professional library. Existing file formats are compatibility interfaces, not a requirement to reproduce an earlier implementation.
 
